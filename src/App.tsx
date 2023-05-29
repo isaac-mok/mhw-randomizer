@@ -1,24 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import React, { useState } from 'react';
+import Quests from "./Quests";
+import { Quest } from "./types/quest";
 function App() {
+  const [quests, setQuests] = useState<Quest[]>([]);
+
+  function handleRandomizeButtonClick() {
+    if (quests.length <= 0) return alert('Choose at least one quest.')
+
+    const randomQuestIndex = getRandomIndex(quests.length)
+
+    console.log(quests[randomQuestIndex])
+  }
+
+  function getRandomIndex (exclusiveMax: number) {
+    return Math.floor(Math.random() * exclusiveMax)
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Quests setChecked={(quests: Quest[]) => setQuests(quests)} />
+      <button onClick={handleRandomizeButtonClick}>Randomize</button>
     </div>
   );
 }
