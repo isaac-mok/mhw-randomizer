@@ -1220,6 +1220,1276 @@
     }
   },
   {
+    "name": "Deep Snow Diver",
+    "star": "M1*",
+    "objective": "Hunt a Beotodus",
+    "tags": {
+      "star": "M1",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Taking Charge",
+    "star": "M1*",
+    "objective": "Hunt a Banbaro",
+    "tags": {
+      "star": "M1",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Ice Catch! (!)",
+    "star": "M1*",
+    "objective": "Capture a Beotodus",
+    "tags": {
+      "star": "M1",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Call of the Wild",
+    "star": "M1*",
+    "objective": "Slay 10 Wulg",
+    "tags": {
+      "star": "M1",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Greetings from the Tundra (!)",
+    "star": "M1*",
+    "objective": "Deliver Young Butterburs",
+    "tags": {
+      "star": "M1",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "The Great Jagras Returns! (!)",
+    "star": "M1*",
+    "objective": "Hunt a Great Jagras",
+    "tags": {
+      "star": "M1",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Literary Thief",
+    "star": "M1*",
+    "objective": "Hunt a Kulu-Ya-Ku",
+    "tags": {
+      "star": "M1",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "New World Problems",
+    "star": "M1*",
+    "objective": "Hunt a Pukei-Pukei",
+    "tags": {
+      "star": "M1",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Beating Around the Bush",
+    "star": "M1*",
+    "objective": "Hunt a Tobi-Kadachi",
+    "tags": {
+      "star": "M1",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Trapping The Tree Trasher (!)",
+    "star": "M1*",
+    "objective": "Capture a Banbaro",
+    "tags": {
+      "star": "M1",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Wildspire Treasure Hunt",
+    "star": "M1*",
+    "objective": "Hunt a Kulu-Ya-Ku",
+    "tags": {
+      "star": "M1",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Taster's Tour",
+    "star": "M1*",
+    "objective": "Hunt a Pukei-Pukei",
+    "tags": {
+      "star": "M1",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Dragged Through the Mud",
+    "star": "M1*",
+    "objective": "Hunt a Barroth",
+    "tags": {
+      "star": "M1",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Jyura In My Way (!)",
+    "star": "M1*",
+    "objective": "Hunt a Jyuratodus",
+    "tags": {
+      "star": "M1",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "All the Wrong Signals",
+    "star": "M1*",
+    "objective": "Hunt a Tzitzi-Ya-Ku",
+    "tags": {
+      "star": "M1",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Grinding my Girros",
+    "star": "M1*",
+    "objective": "Hunt a Great Girros",
+    "tags": {
+      "star": "M1",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Can't Bring Yourself To It",
+    "star": "M1*",
+    "objective": "Hunt a Dodogama",
+    "tags": {
+      "star": "M1",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "This Here's Big Horn Country! (!)",
+    "star": "M1*",
+    "objective": "Hunt a Tempered Banbaro (Rewards Vitality Mantle +)",
+    "tags": {
+      "star": "M1",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Special Arena: MR Pukei-Pukei",
+    "star": "M1*",
+    "objective": "Hunt a Pukei-Pukei",
+    "tags": {
+      "star": "M1",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Special Arena: MR Barroth",
+    "star": "M1*",
+    "objective": "Hunt a Barroth",
+    "tags": {
+      "star": "M1",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Special Arena: MR Tobi-Kadachi",
+    "star": "M1*",
+    "objective": "Hunt a Tobi-Kadachi",
+    "tags": {
+      "star": "M1",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Special Arena: MR Banbaro",
+    "star": "M1*",
+    "objective": "Hunt a Banbaro",
+    "tags": {
+      "star": "M1",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Analysis Creates Paralysis",
+    "star": "M2*",
+    "objective": "Hunt a Viper Tobi-Kadachi",
+    "tags": {
+      "star": "M2",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Poison and Paralysis Pinch (!)",
+    "star": "M2*",
+    "objective": "Capture a Viper Tobi-Kadachi (Rewards Cleanser Booster +)",
+    "tags": {
+      "star": "M2",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Boaboa Constrictor (!)",
+    "star": "M2*",
+    "objective": "Defeat 14 Boaboa",
+    "tags": {
+      "star": "M2",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "By Our Powers Combined (!)",
+    "star": "M2*",
+    "objective": "Hunt a Tempered Beotodus",
+    "tags": {
+      "star": "M2",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "You Scratch Our Backs... (!)",
+    "star": "M2*",
+    "objective": "Hunt a Tempered Beotodus",
+    "tags": {
+      "star": "M2",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Anjanath Antics",
+    "star": "M2*",
+    "objective": "Hunt an Anjanath",
+    "tags": {
+      "star": "M2",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Fool's Mate",
+    "star": "M2*",
+    "objective": "Hunt a Rathian",
+    "tags": {
+      "star": "M2",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Nighty Night Nightshade (!)",
+    "star": "M2*",
+    "objective": "Capture a Nightshade Paolumu",
+    "tags": {
+      "star": "M2",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Stick Your Nose Somewhere Else",
+    "star": "M2*",
+    "objective": "Hunt an Anjanath",
+    "tags": {
+      "star": "M2",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "A Queen At Heart (!)",
+    "star": "M2*",
+    "objective": "Hunt a Rathian",
+    "tags": {
+      "star": "M2",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "A Face Nightmares Are Made Of",
+    "star": "M2*",
+    "objective": "Hunt a Nightshade Paolumu",
+    "tags": {
+      "star": "M2",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Feisty Girl Talk (!)",
+    "star": "M2*",
+    "objective": "Hunt all target monsters (Rewards Health Booster +)",
+    "tags": {
+      "star": "M2",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "The Plight of Paolumu",
+    "star": "M2*",
+    "objective": "Hunt a Paolumu",
+    "tags": {
+      "star": "M2",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Pink Power Grab",
+    "star": "M2*",
+    "objective": "Hunt a Pink Rathian",
+    "tags": {
+      "star": "M2",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Protip: Stay Hydrated",
+    "star": "M2*",
+    "objective": "Hunt a Coral Pukei-Pukei",
+    "tags": {
+      "star": "M2",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "No Laughing Matter",
+    "star": "M2*",
+    "objective": "Hunt a Radobaan",
+    "tags": {
+      "star": "M2",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Bugger Off Bugs! (!)",
+    "star": "M2*",
+    "objective": "Slay all target monsters",
+    "tags": {
+      "star": "M2",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Looking For That Glimmer (!)",
+    "star": "M2*",
+    "objective": "Deliver 20 Gaia Ambers",
+    "tags": {
+      "star": "M2",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Put That Red Cup Away (!)",
+    "star": "M2*",
+    "objective": "Hunt a Coral Pukei-Pukei (Rewards Waterproof Mantle +)",
+    "tags": {
+      "star": "M2",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Special Arena: MR Nightshade Paolumu",
+    "star": "M2*",
+    "objective": "Hunt a Nightshade Paolumu",
+    "tags": {
+      "star": "M2",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Special Arena: MR Viper Tobi-Kadachi",
+    "star": "M2*",
+    "objective": "Hunt a Viper Tobi-Kadachi",
+    "tags": {
+      "star": "M2",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Special Arena: MR Coral Pukei-Pukei",
+    "star": "M2*",
+    "objective": "Hunt a Coral Pukei-Pukei",
+    "tags": {
+      "star": "M2",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Special Arena: MR Radobaan",
+    "star": "M2*",
+    "objective": "Hunt a Radobaan",
+    "tags": {
+      "star": "M2",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Special Arena: MR Rathian",
+    "star": "M2*",
+    "objective": "Hunt a Rathian",
+    "tags": {
+      "star": "M2",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Special Arena: MR Pink Rathian",
+    "star": "M2*",
+    "objective": "Hunt a Pink Rathian",
+    "tags": {
+      "star": "M2",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Special Arena: MR  Paolumu",
+    "star": "M2*",
+    "objective": "Hunt a Paolumu",
+    "tags": {
+      "star": "M2",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Special Arena: MR Anjanath",
+    "star": "M2*",
+    "objective": "Hunt a Anjanath",
+    "tags": {
+      "star": "M2",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Remember That One Time?",
+    "star": "M3*",
+    "objective": "Hunt a Barioth",
+    "tags": {
+      "star": "M3",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "The Purr-fect Room: Stone (!)",
+    "star": "M3*",
+    "objective": "Capture a Tigrex",
+    "tags": {
+      "star": "M3",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Swoop to a New Low",
+    "star": "M3*",
+    "objective": "Hunt a Rathalos",
+    "tags": {
+      "star": "M3",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Nargacoulda, Shoulda, Woulda",
+    "star": "M3*",
+    "objective": "Hunt a Nargacuga",
+    "tags": {
+      "star": "M3",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "The Secret to a Good Slice",
+    "star": "M3*",
+    "objective": "Hunt a Glavenus",
+    "tags": {
+      "star": "M3",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Red and Black Aces (!)",
+    "star": "M3*",
+    "objective": "Hunt all target monsters (Rewards Glider Mantle +)",
+    "tags": {
+      "star": "M3",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "A Line in the Sand",
+    "star": "M3*",
+    "objective": "Hunt a Diablos",
+    "tags": {
+      "star": "M3",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "A Flash of the Blade",
+    "star": "M3*",
+    "objective": "Hunt a Glavenus",
+    "tags": {
+      "star": "M3",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Simmer and Slice! (!)",
+    "star": "M3*",
+    "objective": "Hunt all target monsters Glavenus + Rathian",
+    "tags": {
+      "star": "M3",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Legiana Left Behind",
+    "star": "M3*",
+    "objective": "Hunt a Legiana",
+    "tags": {
+      "star": "M3",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "The Black Wind",
+    "star": "M3*",
+    "objective": "Hunt a Nargacuga",
+    "tags": {
+      "star": "M3",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Don't be a Jerk with the Jerky",
+    "star": "M3*",
+    "objective": "Hunt an Odogaron",
+    "tags": {
+      "star": "M3",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "A Roar that Shook the Vale",
+    "star": "M3*",
+    "objective": "Hunt a Tigrex",
+    "tags": {
+      "star": "M3",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Runnin', Rollin', and Weepin' (!)",
+    "star": "M3*",
+    "objective": "Hunt all target monsters",
+    "tags": {
+      "star": "M3",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Everyone's a Critic",
+    "star": "M3*",
+    "objective": "Hunt a Lavasioth",
+    "tags": {
+      "star": "M3",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Begone Uragaan",
+    "star": "M3*",
+    "objective": "Hunt an Uragaan",
+    "tags": {
+      "star": "M3",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Blast Warning In Effect!",
+    "star": "M3*",
+    "objective": "Hunt a Brachydios",
+    "tags": {
+      "star": "M3",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Secret of the Ooze (!)",
+    "star": "M3*",
+    "objective": "Capture a Brachydios",
+    "tags": {
+      "star": "M3",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Festival of Explosions! (!)",
+    "star": "M3*",
+    "objective": "Hunt all target monsters (Rewards Fireproof Mantle +)",
+    "tags": {
+      "star": "M3",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Proud White Knight (!)",
+    "star": "M3*",
+    "objective": "Hunt a Tempered Barioth (Rewards Evasion Mantle +)",
+    "tags": {
+      "star": "M3",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "A Nasty Flesh Wound (!)",
+    "star": "M3*",
+    "objective": "Hunt a Tempered Odogaron (Rewards Bandit Mantle +)",
+    "tags": {
+      "star": "M3",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Special Arena: MR Nargacuga",
+    "star": "M3*",
+    "objective": "Hunt a Nargacuga",
+    "tags": {
+      "star": "M3",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Special Arena: MR Barioth",
+    "star": "M3*",
+    "objective": "Hunt a Barioth",
+    "tags": {
+      "star": "M3",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Special Arena: MR Glavenus",
+    "star": "M3*",
+    "objective": "Hunt a Glavenus",
+    "tags": {
+      "star": "M3",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Special Arena: MR Legiana",
+    "star": "M3*",
+    "objective": "Hunt a Legiana",
+    "tags": {
+      "star": "M3",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Special Arena: MR Odogaron",
+    "star": "M3*",
+    "objective": "Hunt an Odogaron",
+    "tags": {
+      "star": "M3",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Special Arena: MR Rathalos",
+    "star": "M3*",
+    "objective": "Hunt a Rathalos",
+    "tags": {
+      "star": "M3",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Special Arena: MR Tigrex",
+    "star": "M3*",
+    "objective": "Hunt a Tigrex",
+    "tags": {
+      "star": "M3",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Special Arena: MR Brachydios",
+    "star": "M3*",
+    "objective": "Hunt a Brachydios",
+    "tags": {
+      "star": "M3",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Special Arena: MR Diablos",
+    "star": "M3*",
+    "objective": "Hunt a Diablos",
+    "tags": {
+      "star": "M3",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Special Arena: MR Uragaan",
+    "star": "M3*",
+    "objective": "Hunt an Uragaan",
+    "tags": {
+      "star": "M3",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Noblefrost Hunter",
+    "star": "M4*",
+    "objective": "Hunt a Shrieking Legiana",
+    "tags": {
+      "star": "M4",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Tundra Troublemaker",
+    "star": "M4*",
+    "objective": "Hunt a Fulgur Anjanath",
+    "tags": {
+      "star": "M4",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Duet of Rime (!)",
+    "star": "M4*",
+    "objective": "Hunt all target monsters (Rewards Iceproof Mantle +)",
+    "tags": {
+      "star": "M4",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Treasure in the Steam (!)",
+    "star": "M4*",
+    "objective": "Deliver 2 Hot Spring Stones",
+    "tags": {
+      "star": "M4",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "These Azure Eyes See All",
+    "star": "M4*",
+    "objective": "Hunt an Azure Rathalos",
+    "tags": {
+      "star": "M4",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Misfortune in the Forest",
+    "star": "M4*",
+    "objective": "Hunt an Ebony Odogaron",
+    "tags": {
+      "star": "M4",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "In the Heat of the Moment",
+    "star": "M4*",
+    "objective": "Hunt a Black Diablos",
+    "tags": {
+      "star": "M4",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "A Shadowy Offender",
+    "star": "M4*",
+    "objective": "Hunt an Ebony Odogaron",
+    "tags": {
+      "star": "M4",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "This Corroded Blade",
+    "star": "M4*",
+    "objective": "Hunt an Acidic Glavenus",
+    "tags": {
+      "star": "M4",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "The Purr-fect Room: Light Iron (!)",
+    "star": "M4*",
+    "objective": "Capture an Acidic Glavenus",
+    "tags": {
+      "star": "M4",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "The Purr-fect Room: Dark Iron (!)",
+    "star": "M4*",
+    "objective": "Hunt an Odogaron and Ebony Odogaron",
+    "tags": {
+      "star": "M4",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Blue Rathalos Blues",
+    "star": "M4*",
+    "objective": "Hunt an Azure Rathalos",
+    "tags": {
+      "star": "M4",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Trap the Thunder Jaw (!)",
+    "star": "M4*",
+    "objective": "Capture a Fulgur Anjanath (Rewards Thunderproof Mantle +)",
+    "tags": {
+      "star": "M4",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Piercing Black (!)",
+    "star": "M4*",
+    "objective": "Hunt a Black Diablos (Rewards Rocksteady Mantle +)",
+    "tags": {
+      "star": "M4",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Special Arena: MR Azure Rathalos",
+    "star": "M4*",
+    "objective": "Hunt an Azure Rathalos",
+    "tags": {
+      "star": "M4",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Special Arena: MR Black Diablos",
+    "star": "M4*",
+    "objective": "Hunt a Black Diablos",
+    "tags": {
+      "star": "M4",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Special Arena: MR Fulgur Anjanath",
+    "star": "M4*",
+    "objective": "Hunt a Fulgur Anjanath\n",
+    "tags": {
+      "star": "M4",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Special Arena: MR Acidic Glavenus",
+    "star": "M4*",
+    "objective": "Hunt an Acidic Glavenus",
+    "tags": {
+      "star": "M4",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Special Arena: MR Ebony Odogaron",
+    "star": "M4*",
+    "objective": "Hunt an Ebony Odogaron",
+    "tags": {
+      "star": "M4",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Clashing Swords Upon The Rime",
+    "star": "M5*",
+    "objective": "Slay a Velkhana",
+    "tags": {
+      "star": "M5",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "The Harbinger of Clear Skies",
+    "star": "M5*",
+    "objective": "Slay a Kushala Daora",
+    "tags": {
+      "star": "M5",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Here Comes the Deathmaker",
+    "star": "M5*",
+    "objective": "Slay a Blackveil Vaal Hazak\n",
+    "tags": {
+      "star": "M5",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Royal Audience on the Sand",
+    "star": "M5*",
+    "objective": "Slay a Teostra",
+    "tags": {
+      "star": "M5",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "The Tyrant's Banquet (!)",
+    "star": "M5*",
+    "objective": "Hunt a Savage Deviljho (Rewards Apothecary Mantle +)",
+    "tags": {
+      "star": "M5",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Lightning Crashes",
+    "star": "M5*",
+    "objective": "Slay a Kirin",
+    "tags": {
+      "star": "M5",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Memories of the Sea God",
+    "star": "M5*",
+    "objective": "Slay a Namielle",
+    "tags": {
+      "star": "M5",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "It's the Afterlife for Me (!)",
+    "star": "M5*",
+    "objective": "Slay a Blackveil Vaal Hazak (Rewards Immunity Mantle +)",
+    "tags": {
+      "star": "M5",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Seething with Anger",
+    "star": "M5*",
+    "objective": "Hunt a Seething Bazelgeuse",
+    "tags": {
+      "star": "M5",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Wings of the Wind",
+    "star": "M5*",
+    "objective": "Slay a Kushala Daora",
+    "tags": {
+      "star": "M5",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Mark of the Sun",
+    "star": "M5*",
+    "objective": "Slay a Teostra",
+    "tags": {
+      "star": "M5",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "The Purr-fect Room: Silver (!)",
+    "star": "M5*",
+    "objective": "Capture a Seething Bazelgeuse",
+    "tags": {
+      "star": "M5",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Faraway Lorelei",
+    "star": "M6*",
+    "objective": "Slay a Shara Ishvalda",
+    "tags": {
+      "star": "M6",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "One Hot Night in the Spire",
+    "star": "M6*",
+    "objective": "Slay a Lunastra",
+    "tags": {
+      "star": "M6",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Into the Palace of Flame",
+    "star": "M6*",
+    "objective": "Slay a Lunastra",
+    "tags": {
+      "star": "M6",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "All That Glitters is Furious",
+    "star": "M6*",
+    "objective": "Slay a Furious Rajang (Unlocked after the related special assignment)",
+    "tags": {
+      "star": "M6",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Achy Brachy Heart",
+    "star": "M6*",
+    "objective": "Slay a Raging Brachydios (Unlocked after the related special assignment",
+    "tags": {
+      "star": "M6",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "We Run This Town (!)",
+    "star": "M6*",
+    "objective": "Hunt a Tigrex, Nargacuga, Zinogre, Brachydios and a Glavenus",
+    "tags": {
+      "star": "M6",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Hymn of Moon and Sun MR 125+ (!)",
+    "star": "M6*",
+    "objective": "Slay a Golden Rathian and a Silver Rathalos (Rewards Impact Mantle +)",
+    "tags": {
+      "star": "M6",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Divine Surge MR 150+ (!)",
+    "star": "M6*",
+    "objective": "Slay a Tempered Kirin and a Tempered Namielle (Rewards Temporal Mantle +) ",
+    "tags": {
+      "star": "M6",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "The Storm Brings the Unexpected MR 175+ (!)",
+    "star": "M6*",
+    "objective": "Slay a Tempered Kushala Daora and Tempered Blackveil Vaal Hazak (Rewards Affinity Booster +)",
+    "tags": {
+      "star": "M6",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Master Hunter of the New World MR 200+",
+    "star": "M6*",
+    "objective": "Slay a Tempered Teostra, Tempered Lunastra, Tempered Velkhana and Ruiner Nergigante",
+    "tags": {
+      "star": "M6",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Special Arena: MR Zinogre",
+    "star": "M6*",
+    "objective": "Hunt a Zinogre",
+    "tags": {
+      "star": "M6",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Special Arena: MR Yian Garuga",
+    "star": "M6*",
+    "objective": "Hunt a Yian Garuga",
+    "tags": {
+      "star": "M6",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Special Arena: MR Gold Rathian",
+    "star": "M6*",
+    "objective": "Hunt a Gold Rathian",
+    "tags": {
+      "star": "M6",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Special Arena: MR Silver Rathalos",
+    "star": "M6*",
+    "objective": "Hunt a Silver Rathalos",
+    "tags": {
+      "star": "M6",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Special Arena: MR Brute Tigrex",
+    "star": "M6*",
+    "objective": "Hunt a Brute Tigrex",
+    "tags": {
+      "star": "M6",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
+    "name": "Special Arena: MR Stygian Zinogre",
+    "star": "M6*",
+    "objective": "Hunt a Stygian Zinogre",
+    "tags": {
+      "star": "M6",
+      "rank": "Master",
+      "type": "Optional"
+    }
+  },
+  {
     "name": "Up at the Crack of Dawn",
     "star": "1*",
     "objective": "Hunt 2 Great Jagras",

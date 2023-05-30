@@ -138,7 +138,136 @@ Hunt all target monsters.
 Tempered Kushala Daora +Tempered Teostra +Tempered Nergigante"
 Beyond the Blasting Scales,9*,"→This is an assignment quest prior to Master Rank
 Hunt 2 Tempered Bazelgeuse"
-Thunderous Rumble in the Highlands,9*,Hunt a Tempered Kirin`
+Thunderous Rumble in the Highlands,9*,Hunt a Tempered Kirin
+Deep Snow Diver,M1*,Hunt a Beotodus
+Taking Charge,M1*,Hunt a Banbaro
+Ice Catch! (!),M1*,Capture a Beotodus
+Call of the Wild,M1*,Slay 10 Wulg
+Greetings from the Tundra (!),M1*,Deliver Young Butterburs
+The Great Jagras Returns! (!),M1*,Hunt a Great Jagras
+Literary Thief,M1*,Hunt a Kulu-Ya-Ku
+New World Problems,M1*,Hunt a Pukei-Pukei
+Beating Around the Bush,M1*,Hunt a Tobi-Kadachi
+Trapping The Tree Trasher (!),M1*,Capture a Banbaro
+Wildspire Treasure Hunt,M1*,Hunt a Kulu-Ya-Ku
+Taster's Tour,M1*,Hunt a Pukei-Pukei
+Dragged Through the Mud,M1*,Hunt a Barroth
+Jyura In My Way (!),M1*,Hunt a Jyuratodus
+All the Wrong Signals,M1*,Hunt a Tzitzi-Ya-Ku
+Grinding my Girros,M1*,Hunt a Great Girros
+Can't Bring Yourself To It,M1*,Hunt a Dodogama
+This Here's Big Horn Country! (!),M1*,Hunt a Tempered Banbaro (Rewards Vitality Mantle +)
+Special Arena: MR Pukei-Pukei,M1*,Hunt a Pukei-Pukei
+Special Arena: MR Barroth,M1*,Hunt a Barroth
+Special Arena: MR Tobi-Kadachi,M1*,Hunt a Tobi-Kadachi
+Special Arena: MR Banbaro,M1*,Hunt a Banbaro
+Analysis Creates Paralysis,M2*,Hunt a Viper Tobi-Kadachi
+Poison and Paralysis Pinch (!),M2*,Capture a Viper Tobi-Kadachi (Rewards Cleanser Booster +)
+Boaboa Constrictor (!),M2*,Defeat 14 Boaboa
+By Our Powers Combined (!),M2*,Hunt a Tempered Beotodus
+You Scratch Our Backs... (!),M2*,Hunt a Tempered Beotodus
+Anjanath Antics,M2*,Hunt an Anjanath
+Fool's Mate,M2*,Hunt a Rathian
+Nighty Night Nightshade (!),M2*,Capture a Nightshade Paolumu
+Stick Your Nose Somewhere Else,M2*,Hunt an Anjanath
+A Queen At Heart (!),M2*,Hunt a Rathian
+A Face Nightmares Are Made Of,M2*,Hunt a Nightshade Paolumu
+Feisty Girl Talk (!),M2*,Hunt all target monsters (Rewards Health Booster +)
+The Plight of Paolumu,M2*,Hunt a Paolumu
+Pink Power Grab,M2*,Hunt a Pink Rathian
+Protip: Stay Hydrated,M2*,Hunt a Coral Pukei-Pukei
+No Laughing Matter,M2*,Hunt a Radobaan
+Bugger Off Bugs! (!),M2*,Slay all target monsters
+Looking For That Glimmer (!),M2*,Deliver 20 Gaia Ambers
+Put That Red Cup Away (!),M2*,Hunt a Coral Pukei-Pukei (Rewards Waterproof Mantle +)
+Special Arena: MR Nightshade Paolumu,M2*,Hunt a Nightshade Paolumu
+Special Arena: MR Viper Tobi-Kadachi,M2*,Hunt a Viper Tobi-Kadachi
+Special Arena: MR Coral Pukei-Pukei,M2*,Hunt a Coral Pukei-Pukei
+Special Arena: MR Radobaan,M2*,Hunt a Radobaan
+Special Arena: MR Rathian,M2*,Hunt a Rathian
+Special Arena: MR Pink Rathian,M2*,Hunt a Pink Rathian
+Special Arena: MR  Paolumu,M2*,Hunt a Paolumu
+Special Arena: MR Anjanath,M2*,Hunt a Anjanath
+Remember That One Time?,M3*,Hunt a Barioth
+The Purr-fect Room: Stone (!),M3*,Capture a Tigrex
+Swoop to a New Low,M3*,Hunt a Rathalos
+"Nargacoulda, Shoulda, Woulda",M3*,Hunt a Nargacuga
+The Secret to a Good Slice,M3*,Hunt a Glavenus
+Red and Black Aces (!),M3*,Hunt all target monsters (Rewards Glider Mantle +)
+A Line in the Sand,M3*,Hunt a Diablos
+A Flash of the Blade,M3*,Hunt a Glavenus
+Simmer and Slice! (!),M3*,Hunt all target monsters Glavenus + Rathian
+Legiana Left Behind,M3*,Hunt a Legiana
+The Black Wind,M3*,Hunt a Nargacuga
+Don't be a Jerk with the Jerky,M3*,Hunt an Odogaron
+A Roar that Shook the Vale,M3*,Hunt a Tigrex
+"Runnin', Rollin', and Weepin' (!)",M3*,Hunt all target monsters
+Everyone's a Critic,M3*,Hunt a Lavasioth
+Begone Uragaan,M3*,Hunt an Uragaan
+Blast Warning In Effect!,M3*,Hunt a Brachydios
+Secret of the Ooze (!),M3*,Capture a Brachydios
+Festival of Explosions! (!),M3*,Hunt all target monsters (Rewards Fireproof Mantle +)
+Proud White Knight (!),M3*,Hunt a Tempered Barioth (Rewards Evasion Mantle +)
+A Nasty Flesh Wound (!),M3*,Hunt a Tempered Odogaron (Rewards Bandit Mantle +)
+Special Arena: MR Nargacuga,M3*,Hunt a Nargacuga
+Special Arena: MR Barioth,M3*,Hunt a Barioth
+Special Arena: MR Glavenus,M3*,Hunt a Glavenus
+Special Arena: MR Legiana,M3*,Hunt a Legiana
+Special Arena: MR Odogaron,M3*,Hunt an Odogaron
+Special Arena: MR Rathalos,M3*,Hunt a Rathalos
+Special Arena: MR Tigrex,M3*,Hunt a Tigrex
+Special Arena: MR Brachydios,M3*,Hunt a Brachydios
+Special Arena: MR Diablos,M3*,Hunt a Diablos
+Special Arena: MR Uragaan,M3*,Hunt an Uragaan
+Noblefrost Hunter,M4*,Hunt a Shrieking Legiana
+Tundra Troublemaker,M4*,Hunt a Fulgur Anjanath
+Duet of Rime (!),M4*,Hunt all target monsters (Rewards Iceproof Mantle +)
+Treasure in the Steam (!),M4*,Deliver 2 Hot Spring Stones
+These Azure Eyes See All,M4*,Hunt an Azure Rathalos
+Misfortune in the Forest,M4*,Hunt an Ebony Odogaron
+In the Heat of the Moment,M4*,Hunt a Black Diablos
+A Shadowy Offender,M4*,Hunt an Ebony Odogaron
+This Corroded Blade,M4*,Hunt an Acidic Glavenus
+The Purr-fect Room: Light Iron (!),M4*,Capture an Acidic Glavenus
+The Purr-fect Room: Dark Iron (!),M4*,Hunt an Odogaron and Ebony Odogaron
+Blue Rathalos Blues,M4*,Hunt an Azure Rathalos
+Trap the Thunder Jaw (!),M4*,Capture a Fulgur Anjanath (Rewards Thunderproof Mantle +)
+Piercing Black (!),M4*,Hunt a Black Diablos (Rewards Rocksteady Mantle +)
+Special Arena: MR Azure Rathalos,M4*,Hunt an Azure Rathalos
+Special Arena: MR Black Diablos,M4*,Hunt a Black Diablos
+Special Arena: MR Fulgur Anjanath,M4*,"Hunt a Fulgur Anjanath
+"
+Special Arena: MR Acidic Glavenus,M4*,Hunt an Acidic Glavenus
+Special Arena: MR Ebony Odogaron,M4*,Hunt an Ebony Odogaron
+Clashing Swords Upon The Rime,M5*,Slay a Velkhana
+The Harbinger of Clear Skies,M5*,Slay a Kushala Daora
+Here Comes the Deathmaker,M5*,"Slay a Blackveil Vaal Hazak
+"
+Royal Audience on the Sand,M5*,Slay a Teostra
+The Tyrant's Banquet (!),M5*,Hunt a Savage Deviljho (Rewards Apothecary Mantle +)
+Lightning Crashes,M5*,Slay a Kirin
+Memories of the Sea God,M5*,Slay a Namielle
+It's the Afterlife for Me (!),M5*,Slay a Blackveil Vaal Hazak (Rewards Immunity Mantle +)
+Seething with Anger,M5*,Hunt a Seething Bazelgeuse
+Wings of the Wind,M5*,Slay a Kushala Daora
+Mark of the Sun,M5*,Slay a Teostra
+The Purr-fect Room: Silver (!),M5*,Capture a Seething Bazelgeuse
+Faraway Lorelei,M6*,Slay a Shara Ishvalda
+One Hot Night in the Spire,M6*,Slay a Lunastra
+Into the Palace of Flame,M6*,Slay a Lunastra
+All That Glitters is Furious,M6*,Slay a Furious Rajang (Unlocked after the related special assignment)
+Achy Brachy Heart,M6*,Slay a Raging Brachydios (Unlocked after the related special assignment
+We Run This Town (!),M6*,"Hunt a Tigrex, Nargacuga, Zinogre, Brachydios and a Glavenus"
+Hymn of Moon and Sun MR 125+ (!),M6*,Slay a Golden Rathian and a Silver Rathalos (Rewards Impact Mantle +)
+Divine Surge MR 150+ (!),M6*,Slay a Tempered Kirin and a Tempered Namielle (Rewards Temporal Mantle +) 
+The Storm Brings the Unexpected MR 175+ (!),M6*,Slay a Tempered Kushala Daora and Tempered Blackveil Vaal Hazak (Rewards Affinity Booster +)
+Master Hunter of the New World MR 200+,M6*,"Slay a Tempered Teostra, Tempered Lunastra, Tempered Velkhana and Ruiner Nergigante"
+Special Arena: MR Zinogre,M6*,Hunt a Zinogre
+Special Arena: MR Yian Garuga,M6*,Hunt a Yian Garuga
+Special Arena: MR Gold Rathian,M6*,Hunt a Gold Rathian
+Special Arena: MR Silver Rathalos,M6*,Hunt a Silver Rathalos
+Special Arena: MR Brute Tigrex,M6*,Hunt a Brute Tigrex
+Special Arena: MR Stygian Zinogre,M6*,Hunt a Stygian Zinogre`
 
 const eventQuests = `Quest,Star,Objective
 Up at the Crack of Dawn,1*,Hunt 2 Great Jagras
