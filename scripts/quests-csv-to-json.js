@@ -1,7 +1,146 @@
-const { writeFileSync } = require("fs")
+const { writeFileSync, appendFileSync } = require("fs")
 const { parse } = require('csv-parse')
 
-const input = `name,star,objective
+const optionalQuests = `Quest,Star,Objective
+Learning the Clutch,1*,Learn the mechanics of the clutch claw
+Butting Heads with Nature,1*,Slay 12 Kestodon
+A Thicket of Thugs,1*,Slay 7 Jagras
+Fungal Flexin' in the Ancient Forest (!),1*,Deliver 20 Gourmet Shroomcaps
+The Great Glutton,2*,Hunt a Great Jagras
+Camp Crasher,2*,Hunt a Kulu-Ya-Ku
+Snatch the Snatcher (!),2*,Capture a Kulu-Ya-Ku
+The Pain from Gains (!),2*,Slay 7 Gajau
+Exterminator of the Waste (!),2*,Slay 14 Vespoid
+Scatternut Shortage,3*,Hunt Pukei-Pukei
+The Current Situation,3*,Hunt a Tobi-Kadachi
+Mired in the Spire,3*,Hunt a Barroth
+The Piscine Problem,3*,Hunt a Jyuratodus
+Prickly Predicament (!),3*,Deliver 20 Bauble Cactuses
+Gettin' Yolked in the Waste (!),3*,Deliver 2 Herbivore Eggs
+Landing the Landside Wyvern (!),3*,Capture a Barroth
+Special Arena: Pukei-Pukei,3*,Hunt a Pukei-Pukei
+Special Arena: Barroth,3*,Hunt a Barroth
+Special Arena: Tobi-Kadachi,3*,Hunt a Tobi-Kadachi
+One Helluva Sinus Infection,4*,Hunt an Anjanath
+Gettin' Yolked in the Forest (!),4*,Deliver 2 Wyvern Eggs
+Royal Relocation (!),4*,Hunt a Rathian
+It's a Crying Shamos (!),4*,Slay 11 Shamos
+A Tzitzi for Science,4*,Hunt a Tzitzi-Ya-Ku
+Sorry You're Not Invited,4*,Hunt a Paolumu
+What a Bunch of Abalone (!),4*,Deliver 10 Super Abalone
+White Monster for a White Coat (!),4*,Capture a Paolumu
+Persistent Pests (!),4*,Slay 14 Hornetaur
+A Rotten Thing To Do,4*,Hunt a Great Girros
+A Bone to Pick,4*,Hunt a Radobaan
+On Nightmare's Wings (!),4*,Slay 5 Raphinos
+Troubled Troupers (!),4*,Hunt 2 Tzitzi-Ya-Ku
+Special Arena: Anjanath,4*,Hunt an Anjanath
+Special Arena: Radobaan,4*,Hunt a Radobaan
+Special Arena: Rathian,4*,Hunt a Rathian
+Special Arena: Paolumu,4*,Hunt a Paolumu
+When Desire Becomes an Obsession,5*,Hunt a Rathalos
+Redefining the Power Couple (!),5*,Hunt a Rathian and a Rathalos
+Twin Spires Upon the Sands,5*,Hunt a Diablos
+A Humid Headache,5*,Hunt a Legiana
+Gone in a Flash (!),5*,Slay a Kirin
+Scratching the Itch,5*,Hunt an Odogaron
+Man's Best Fiend (!),5*,Capture an Odogaron
+The Meat of the Matter (!),5*,Deliver 2 Lumps of Meat
+Special Arena: Rathalos,5*,Hunt a Rathalos
+Special Arena: Diablos,5*,Hunt a Diablos
+Special Arena: Odogaron,5*,Hunt an Odogaron
+Special Arena: Legiana,5*,Hunt a Legiana
+Left Quite the Impression,6*,Guide Zorah Magdaros
+Hard to Swallow,6*,Hunt a Great Jagras
+Googly-eyed Green Monster,6*,Hunt a Pukei-Pukei
+A Hair-Raising Experience,6*,Hunt a Tobi-Kadachi
+It Can't See You if You Don't Move,6*,Hunt an Anjanath
+The Sleeping Sylvan Queen,6*,Hunt a Rathian
+Stuck in Their Ways (!),6*,Capture a Tobi-Kadachi
+Keep Your Hands to Yourself!,6*,Hunt a Kulu-Ya-Ku
+A Crown of Mud and Anger,6*,Hunt a Barroth
+Pukei-Pukei Ambush,6*,Hunt a Pukei-Pukei
+Up to Your Waist in the Waste,6*,Hunt a Jyuratodus
+"Brown Desert, Green Queen",6*,Hunt a Rathian
+Trespassing Troublemaker,6*,Hunt an Anjanath
+Say Cheese!,6*,Hunt a Tzitzi-Ya-Ku
+Loop the Paolumu,6*,Hunt a Paolumu
+A Tingling Taste,6*,Hunt a Great Girros
+Stuck in a Rut,6*,Hunt a Radobaan
+Chef Quest! Pumped to Deliver (!),6*,Deliver 4 Forgotten Fossils
+Chef Quest! A Rotten Request (!),6*,Slay 10 Girros
+A Meow for Help,6*,Slay 13 Gastodon
+A Scalding Scoop,6*,Slay 5 Barnos
+Dodogama Drama,6*,Hunt a Dodogama
+Chef Quest! Gajalaka Lockdown (!),6*,Defeat 10 Gajalaka
+Special Arena: HR Pukei-Pukei,6*,Hunt a Pukei-Pukei
+Special Arena: HR Anjanath,6*,Hunt an Anjanath
+Special Arena: HR Barroth,6*,Hunt a Barroth
+Special Arena: HR Paolumu,6*,Hunt a Paolumu
+Special Arena: HR Tobi-Kadachi,6*,Hunt a Tobi-Kadachi
+Special Arena: HR Rathian,6*,Hunt a Rathian
+Special Arena: HR Radobaan,6*,Hunt a Radobaan
+Rathalos Rematch,7*,Hunt a Rathalos
+Rathalos in Blue,7*,Hunt an Azure Rathalos
+The Red and Blue Crew (!),7*,Hunt a Rathalos and an Azure Rathalos
+Pretty In Pink,7*,Hunt a Pink Rathian
+"Well, That Diablos!",7*,Hunt a Diablos
+Two-horned Hostility,7*,Hunt a Black Diablos
+RRRRRumble in the Waste! (!),7*,Hunt a Diablos and a Black Diablos
+A Cherry Wind upon the Reefs,7*,Hunt a Pink Rathian
+Legiana: Highlands Royalty,7*,Hunt a Legiana
+A Sore Site (!),7*,Hunt an Odogaron
+Talons of Ire and Ice (!),7*,Hunt a Legiana and an Odogaron
+Odogaron Unleashed,7*,Hunt an Odogaron
+"Lavasioth, Monster of Magma",7*,Hunt a Lavasioth
+Ore-eating Occupier,7*,Hunt a Uragaan
+Ruler of the Azure Skies,7*,Hunt an Azure Rathalos
+Bazelgeuse in the Field of Fire (!),7*,Hunt a Bazelgeuse
+A Fiery Convergence (!),7*,Hunt a Lavasioth and an Uragaan
+Today's Special: Hunter Flambé,7*,Hunt a Deviljho
+Special Arena: HR Uragaan,7*,Hunt an Uragaan
+Special Arena: HR Pink Rathian,7*,Hunt a Pink Rathian
+Special Arena: HR Odogaron,7*,Hunt an Odogaron
+Special Arena: HR Rathalos,7*,Hunt a Rathalos
+Special Arena: HR Azure Rathalos,7*,Hunt an Azure Rathalos
+Special Arena: HR Diablos,7*,Hunt a Diablos
+Special Arena: HR Black Diablos,7*,Hunt a Black Diablos
+Special Arena: HR Legiana,7*,Hunt a Legiana
+A Portent of Disaster (!),8*,"→complete research of 10 different monsters
+Slay  Kushala Daora"
+Lightning Strikes Twice (!),8*,Slay Kirin
+Stirrings from the Grave,8*,Slay Vaal Hazak
+The Eater of Elders,8*,Slay Nergigante
+Hellfire's Stronghold - The Fires of Hell Bite Deep,8*,Slay Teostra
+The Winds of Wrath Bite Deep  - Master of the Gale,8*,Slay Kushala Daora
+Blue Prominence,8*,Slay Lunastra
+Infernal Monarchy,8*,Slay Teostra and Lunastra
+A Blaze on the Sand (!),8*,"→complete research of 15 different monsters
+Slay a Teostra"
+A Visitor from Eorzea,9*,"→Complete Special Assignment:
+""He Taketh It with His Eyes"" to unlock
+Slay Behemoth"
+A Light Upon the River's Gloom,9*,Slay Xeno'Jiiva
+Showdown: the Muck and the Maul (!),9*,"→Hunt 5 different tempered monsters (threat level 1) to unlock
+Hunt all target monsters.
+Tempered Barroth + Tempered Radobaan"
+"New World Sky, New World Flower (!)",9*,"→Hunt 7 different tempered monsters (threat level 2) to unlock
+Hunt all target monsters.
+Tempered Pink Rathian + Tempered Azure Rathalos"
+A Summons from Below (!),9*,"→Hunt 3 different tempered monsters (threat level 3) to unlock
+Hunt all target monsters.
+Tempered Vaal Hazak + Tempered Odogaron"
+The White Winds of the New World (!),9*,"→Clear all optional quests from level 1 to 8 and A Light Upon the River's Gloom to unlock
+Hunt all target monsters.
+Legiana + Odogaron + Diablos + Rathalos"
+The Sapphire Star's Guidance (!),9*,"→Reach Hunter Rank 100 to unlock
+Hunt all target monsters.
+Tempered Kushala Daora +Tempered Teostra +Tempered Nergigante"
+Beyond the Blasting Scales,9*,"→This is an assignment quest prior to Master Rank
+Hunt 2 Tempered Bazelgeuse"
+Thunderous Rumble in the Highlands,9*,Hunt a Tempered Kirin`
+
+const eventQuests = `Quest,Star,Objective
 Up at the Crack of Dawn,1*,Hunt 2 Great Jagras
 Chew the Fat,2*,Hunt 3 Great Jagras (Giant and Miniature Crown)
 USJ: Gold Star Treatment,3*,Hunt Tobi-Kadachi + Pukei-Pukei
@@ -134,28 +273,53 @@ The Cold Never Bothered Me,M6*,Slay Tempered Teostra
 The Distant Dark Tide,M6*,Slay Arch-Tempered Namielle
 The Place Where Winter Sleeps,M6*,Slay Arch-Tempered Velkhana`
 
-parse(input, {
+parse(optionalQuests, {
   columns: true,
   skip_empty_lines: true
 }, (_, records) => {
   let output = "[\n"
 
-  output += records.map(({name, star, objective}) => {
+  output += records.map(({Quest, Star, Objective}) => {
     return `  {
-    "name": "${name}",
-    "star": "${star}",
-    "objective": "${objective}",
+    "name": "${Quest}",
+    "star": "${Star}",
+    "objective": "${Objective.replaceAll("\n", "\\n").replaceAll('"', '\\"')}",
     "tags": {
-      "star": "${star.substring(0, star.length - 1)}",
-      "rank": "${isNaN(parseInt(star.substring(0, star.length - 1)))
+      "star": "${Star.substring(0, Star.length - 1)}",
+      "rank": "${isNaN(parseInt(Star.substring(0, Star.length - 1)))
         ? 'Master'
-        : (parseInt(star.substring(0, star.length - 1)) > 5 ? 'High' : 'Low')}",
-      "type": "Event"
+        : (parseInt(Star.substring(0, Star.length - 1)) > 5 ? 'High' : 'Low')}",
+      "type": "Optional"
     }
   }`
   }).join(",\n")
 
-  output += "\n]"
+  output += ',\n'
 
-  writeFileSync("quests-autogenerated.json", output)
+  writeFileSync("src/quests.json", output)
+
+  parse(eventQuests, {
+    columns: true,
+    skip_empty_lines: true
+  }, (_, records) => {
+    let output = records.map(({Quest, Star, Objective}) => {
+      return `  {
+    "name": "${Quest}",
+    "star": "${Star}",
+    "objective": "${Objective.replaceAll("\n", "\\n").replaceAll('"', '\\"')}",
+    "tags": {
+      "star": "${Star.substring(0, Star.length - 1)}",
+      "rank": "${isNaN(parseInt(Star.substring(0, Star.length - 1)))
+        ? 'Master'
+        : (parseInt(Star.substring(0, Star.length - 1)) > 5 ? 'High' : 'Low')}",
+      "type": "Event"
+    }
+  }`
+    }).join(",\n")
+
+    output += "\n]"
+
+    appendFileSync("src/quests.json", output)
+  })
+
 })

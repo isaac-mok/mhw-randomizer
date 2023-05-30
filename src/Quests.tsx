@@ -3,6 +3,10 @@ import Quest from "./components/Quest";
 import questJson from './quests.json';
 import { Quest as QuestType, QuestList, Rank, Star, Type } from "./types/quest";
 import { cloneDeep } from 'lodash'
+import Th from './components/Th'
+import Button from "./components/Button";
+import Select from "./components/Select";
+import Td from "./components/Td";
 
 const availableRankFilters: Rank[] = [
   'Low',
@@ -25,9 +29,9 @@ export default function Quests ({ setChecked }: {
 }) {
   const [questList, setQuestList] = useState<QuestList>({})
   const [filteredQuestNames, setFilteredQuestNames] = useState<string[]>([])
-  const [rankFilter, setRankFilter] = useState<Rank | null>(null)
-  const [starFilter, setStarFilter] = useState<Star | null>(null)
-  const [typeFilter, setTypeFilter] = useState<Type | null>(null)
+  const [rankFilter, setRankFilter] = useState<Rank[]>([])
+  const [starFilter, setStarFilter] = useState<Star[]>([])
+  const [typeFilter, setTypeFilter] = useState<Type[]>([])
 
   useEffect(() => {
     const questList = questJson.reduce((prev, quest) => {
@@ -74,9 +78,9 @@ export default function Quests ({ setChecked }: {
     const questNames = Object.keys(questList)
       .filter(key => {
         const quest = questList[key]
-        return (rankFilter === null || quest.tags.rank === rankFilter)
-          && (starFilter === null || quest.tags.star === starFilter)
-          && (typeFilter === null || quest.tags.type === typeFilter)
+        return (rankFilter.length === 0 || rankFilter.includes(quest.tags.rank))
+          && (starFilter.length === 0 || starFilter.includes(quest.tags.star))
+          && (typeFilter.length === 0 || typeFilter.includes(quest.tags.type))
       })
     setFilteredQuestNames(questNames)
   }
@@ -84,57 +88,60 @@ export default function Quests ({ setChecked }: {
   return (
     <>
       <div>
-        <h6>Filters</h6>
-        <div>
-          <label htmlFor="rank-filter">Rank</label>
-          <select id="rank-filter" onChange={(e) => {
-            const rank = e.currentTarget.value !== 'None' ? e.currentTarget.value as Rank : null
-            setRankFilter(rank)
-          }}>
-            <option value={undefined}>None</option>
-            {availableRankFilters.map(rank => <option key={rank} value={rank}>{rank}</option>)}
-          </select>
-        </div>
-        <div>
-          <label htmlFor="star-filter">Star</label>
-          <select id="star-filter" onChange={(e) => {
-            const star = e.currentTarget.value !== 'None' ? e.currentTarget.value as Star : null
-            setStarFilter(star)
-          }}>
-            <option value={undefined}>None</option>
-            {availableStarFilters.map(star => <option key={star} value={star}>{star}*</option>)}
-          </select>
-        </div>
-        <div>
-          <label htmlFor="type-filter">Type</label>
-          <select id="type-filter" onChange={(e) => {
-            const type = e.currentTarget.value !== 'None' ? e.currentTarget.value as Type : null
-            setTypeFilter(type)
-          }}>
-            <option value={undefined}>None</option>
-            {availableTypeFilters.map(type => <option key={type} value={type}>{type}</option>)}
-          </select>
+        <h6 className="font-bold">Filters</h6>
+        <div className="flex mt-1 mb-2">
+          <div className="pr-2 border-r border-gray-300">
+            <label htmlFor="rank-filter" className="mr-2 block">Rank</label>
+            <Select id="rank-filter" multiple onChange={(e) => {
+              const ranks = Array.from(e.currentTarget.selectedOptions).map(option => option.value)
+              setRankFilter(ranks as Rank[])
+            }}>
+              {availableRankFilters.map(rank => <option key={rank} value={rank}>{rank}</option>)}
+            </Select>
+          </div>
+          <div className="px-2 border-r border-gray-300">
+            <label htmlFor="star-filter" className="mr-2 block">Star</label>
+            <Select id="star-filter" multiple onChange={(e) => {
+              const stars = Array.from(e.currentTarget.selectedOptions).map(option => option.value)
+              setStarFilter(stars as Star[])
+            }}>
+              <option value={undefined}>None</option>
+              {availableStarFilters.map(star => <option key={star} value={star}>{star}*</option>)}
+            </Select>
+          </div>
+          <div className="pl-2">
+            <label htmlFor="type-filter" className="mr-2 block">Type</label>
+            <Select id="type-filter" multiple onChange={(e) => {
+              const types = Array.from(e.currentTarget.selectedOptions).map(option => option.value)
+              setTypeFilter(types as Type[])
+            }}>
+              {availableTypeFilters.map(type => <option key={type} value={type}>{type}</option>)}
+            </Select>
+          </div>
         </div>
       </div>
-      <table>
-        <thead>
-          <tr>
-            <th>Quest name</th>
-            <th>Star</th>
-            <th>Objective</th>
-            <th>
-              <button onClick={() => { setAllFilteredChecked(true) }}>Check all</button>
-              /
-              <button onClick={() => { setAllFilteredChecked(false) }}>Uncheck all</button>
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          {filteredQuestNames.map(key => (
-            <Quest key={key} quest={questList[key]} setChecked={(checked) => setQuestsChecked([key], checked)} />
-          ))}
-        </tbody>
-      </table>
+      <div className="w-full overflow-x-auto">
+        <table className="min-w-full table-fixed">
+          <thead>
+            <tr>
+              <Th>Quest name</Th>
+              <Th>Star</Th>
+              <Th>Objective</Th>
+              <Th>
+                <Button className="w-28 block mb-1 mx-auto" onClick={() => { setAllFilteredChecked(true) }}>Check all</Button>
+                <Button className="w-28 block mx-auto" onClick={() => { setAllFilteredChecked(false) }}>Uncheck all</Button>
+              </Th>
+            </tr>
+          </thead>
+          <tbody>
+            {filteredQuestNames.length > 0
+              ? filteredQuestNames.map(key => (
+                  <Quest key={key} quest={questList[key]} setChecked={(checked) => setQuestsChecked([key], checked)} />
+                ))
+              : <tr><Td colSpan={4}>No quests found</Td></tr>}
+          </tbody>
+        </table>
+      </div>
     </>
   )
 }
