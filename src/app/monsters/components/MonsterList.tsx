@@ -67,7 +67,7 @@ export default function MonsterList (): ReactElement {
         <button onClick={checkAll} className="bg-gray-200 shadow px-4 py-2 rounded font-bold transition mr-2 hover:bg-gray-100 active:bg-gray-300">Check all</button>
         <button onClick={uncheckAll} className="bg-gray-200 shadow px-4 py-2 rounded font-bold transition hover:bg-gray-100 active:bg-gray-300">Uncheck all</button>
       </div>
-      <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 pb-20 sm:pb-0">
+      <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 mb-44">
         {monsters.map(({ name, checked }) => (
           <Monster key={name} name={name} checked={checked} setChecked={(checked: boolean) => { setMonsterChecked(name, checked) }} />
         ))}

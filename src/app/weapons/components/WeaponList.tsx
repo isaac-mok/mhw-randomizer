@@ -67,7 +67,7 @@ export default function WeaponList (): ReactElement {
         <button onClick={checkAll} className="bg-gray-200 shadow px-4 py-2 rounded font-bold transition mr-2 hover:bg-gray-100 active:bg-gray-300">Check all</button>
         <button onClick={uncheckAll} className="bg-gray-200 shadow px-4 py-2 rounded font-bold transition hover:bg-gray-100 active:bg-gray-300">Uncheck all</button>
       </div>
-      <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4 pb-20">
+      <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4 mb-44">
         {weapons.map(({ name, checked }) => (
           <Weapon key={name} name={name} checked={checked} setChecked={(checked: boolean) => { setWeaponChecked(name, checked) }} />
         ))}

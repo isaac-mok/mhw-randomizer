@@ -102,7 +102,7 @@ export default function QuestList (): ReactElement {
         <button onClick={uncheckAll} className="bg-gray-200 shadow px-4 py-2 rounded font-bold transition hover:bg-gray-100 active:bg-gray-300 mr-12">Uncheck all</button>
         <button onClick={() => setIsFiltersModalVisible(!isFiltersModalVisible)} className="bg-blue-600 text-white mt-2 sm:mt-0 shadow px-4 py-2 rounded font-bold transition hover:bg-blue-500 active:bg-blue-700">Filters</button>
       </div>
-      <table className="mb-36">
+      <table className="mb-44 w-full">
         <thead>
           <tr>
             <th className="px-2 py-1 border">Name</th>
