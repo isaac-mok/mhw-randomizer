@@ -25,8 +25,8 @@ export default function EnableButton ({ storageKey }: Props): ReactElement {
     return classNames(
       'px-2 py-1 rounded transition shadow hover:shadow-none text-black',
       enabled
-        ? 'bg-gray-200 hover:bg-gray-100'
-        : 'bg-blue-200 hover:bg-blue-100'
+        ? 'bg-blue-200 hover:bg-blue-100'
+        : 'bg-gray-200 hover:bg-gray-100'
     )
   }
 
