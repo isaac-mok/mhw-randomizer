@@ -1,6 +1,5 @@
 'use client'
 
-import { STORAGE_ENABLE_WEAPONS } from "@/lib/storage";
 import classNames from "classnames";
 import { ReactElement, useCallback, useEffect, useState } from "react";
 import store from 'store'
@@ -35,7 +34,7 @@ export default function EnableButton ({ storageKey }: Props): ReactElement {
 
   return (
     <button onClick={() => { setEnabled(!enabled) }} className={getClassName()}>
-      {enabled ? 'Disable' : 'Enable'}
+      {enabled ? 'Enabled' : 'Disabled'}
     </button>
   )
 }
